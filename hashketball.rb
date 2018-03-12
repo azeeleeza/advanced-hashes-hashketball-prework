@@ -137,13 +137,7 @@ team = game_hash.keys.find do |key, value|
 end
 
 
-player = game_hash[team][:players].find do |element|
-  element.values.find do |stat|
-    stat == name
-  end
-end
-
-player[:points]
+game_hash[team][:players][name][:points]
 end
 
 
