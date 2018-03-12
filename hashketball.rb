@@ -154,8 +154,6 @@ team = game_hash.keys.find do |key, value|
     element.values.include?(name)
   end
 end
-# <<<<<<< HEAD
-# =======
 
 
 player = game_hash[team][:players].find do |element|
@@ -166,7 +164,6 @@ end
 
 player[:shoe]
 end
-# >>>>>>> 89126e711c356d6bc7f29718a6d2e6a1eeb31bfa
 
 
 player = game_hash[team][:players].find do |element|
